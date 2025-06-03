@@ -7,6 +7,7 @@ def decifrar(msj):
   s =""
   for j in msj:
     s += chr(ord(j)-1)
+  return s
 
 e = input("ingrese el mensaje a cifrar:")
 print(f"el mensaje cifrado es: {cifrar(e)}")
